@@ -79,6 +79,7 @@ h2 {
     padding-top: 2px;
     margin-left: -10;
     margin-right: -10;
+    color: blue;
 }
 
 img {
@@ -96,6 +97,24 @@ p {
 body {
     height: 0px;
 }
+
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
+}
+
+#inspiration {
+    background: linear-gradient(90deg, rgba(255, 111, 0, 1) 20%, rgba(0, 146, 255, 1) 80%);
+    color: red;
+    margin-top: -22;
+    margin-left: -10;
+    margin-right: -10;
+    padding-top: 2;
+}
+#contact{
+    background: linear-gradient(90deg, rgba(255,25,0,1) 30%, rgba(0,228,255,1) 70%);
+    margin-top: -30;
+    margin-left: -10;
+    margin-right: -10;
+    padding-top: 2;
+    color: lawngreen;
 }
